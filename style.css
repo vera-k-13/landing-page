@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font: Roboto;
+    border: 10px salmon solid;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    flex: 1;
+    border: 10px palegoldenrod solid;
+}
+
+button {
+    color: #3882F6;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.first-left {
+    border: 10px rebeccapurple solid;
+    flex: 1;
+}
+
+.image {
+    border: 10px rgb(120, 106, 134) solid;
+    flex: 1;
+}
