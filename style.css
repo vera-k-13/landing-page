@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     font: Roboto;
-    border: 10px salmon solid;
     height: 100vh;
 }
 
@@ -11,6 +10,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
+    padding: 0 20%;
 }
 
 a {
@@ -36,8 +36,7 @@ ul {
     justify-content: space-between;
     background-color: #1F2937;
     color: #F9FAF8;
-    flex: 1;
-    border: 10px palegoldenrod solid;
+    padding: 0 20%;
 }
 
 button {
@@ -50,11 +49,82 @@ h1 {
 }
 
 .first-left {
-    border: 10px rebeccapurple solid;
     flex: 1;
 }
 
 .image {
-    border: 10px rgb(120, 106, 134) solid;
     flex: 1;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 5px darkblue solid;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 20%;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.name {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.fourth {
+    display: flex;
+    padding: 0 20%;
+}
+
+.bluebox {
+    background-color: #3882F6;
+    flex: 1;
+    padding: 3% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secondbutton {
+    background-color: #3882F6;
+   color: white;
+   border: 2px white solid;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.footertext {
+    color: white;
 }
