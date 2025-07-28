@@ -34,9 +34,10 @@ ul {
 .first {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 0 20%;
+    padding: 5% 20%;
 }
 
 button {
@@ -48,12 +49,27 @@ h1 {
     font-weight: 900;
 }
 
+.first {
+    gap: 50px;
+}
+
 .first-left {
     flex: 1;
 }
 
 .image {
-    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    /* Maintain aspect ratio */
+    flex: 1 1 auto;
+    /* Allow images to grow and shrink */
+    object-fit: cover;
 }
 
 .second {
